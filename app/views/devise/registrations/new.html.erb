@@ -11,8 +11,7 @@
   <div class="field">
     <%= f.label :age %><br />
     <%= f.number_field :age %>
-  </div> 
-
+  </div>
 
   <div class="field">
     <%= f.label :email %><br />
@@ -30,6 +29,11 @@
   <div class="field">
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+  </div>
+  
+   <div class="field">
+    <%= f.label :avatar %>
+    <%= f.file_field :avatar %><br>
   </div>
 
   <div class="actions">
